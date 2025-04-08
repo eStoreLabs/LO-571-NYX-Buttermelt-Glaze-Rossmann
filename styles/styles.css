@@ -580,6 +580,9 @@
   #es-rc #es-rc-content .es-cross {
     padding-bottom: 150px;
   }
+  #es-rc #es-rc-content .es-cross__title {
+    margin-bottom: 0;
+  }
   #es-rc #es-rc-content .es-cross__container {
     display: flex;
     flex-wrap: wrap;
@@ -612,6 +615,9 @@
     left: -3%;
     right: auto;
     max-width: 18%;
+  }
+  #es-rc #es-rc-content .es-cross__img--2, #es-rc #es-rc-content .es-cross__img--3 {
+    max-width: 84%;
   }
 }
 @media screen and (min-width: 854px) {

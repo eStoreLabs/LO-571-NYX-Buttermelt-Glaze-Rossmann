@@ -771,6 +771,10 @@ $background-color_3: #000;
       .es-cross {
         padding-bottom: 150px;
 
+        &__title {
+          margin-bottom: 0;
+        }
+
         &__container {
           display: -webkit-box;
           display: flex;
@@ -815,6 +819,14 @@ $background-color_3: #000;
             left: -3%;
             right: auto;
             max-width: 18%;
+          }
+        }
+
+        &__img {
+
+          &--2,
+          &--3 {
+            max-width: 84%;
           }
         }
       }
